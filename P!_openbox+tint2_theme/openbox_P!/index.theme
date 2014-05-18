@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=P!
+Comment=A port of Zukitwo-Brave-OSX-Reloaded and adwaita-ob wih different colours
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=P!

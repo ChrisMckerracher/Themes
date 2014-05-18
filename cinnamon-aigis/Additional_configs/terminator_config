@@ -1,0 +1,28 @@
+[global_config]
+  geometry_hinting = False
+  tab_position = right
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#a94246:#9f9191:#3e7f00:#e8d167:#dbc5c5:#75507b:#06989a:#565d4f:#d25654:#a57b7b:#accd8a:#eede91:#88a5a9:#ad7fa8:#34e2e2:#5a5a4c"
+    alternate_screen_scroll = False
+    background_image = None
+    background_darkness = 0.9
+    use_system_font = False
+    foreground_color = "#ffffff"
+    use_custom_command = True
+    show_titlebar = False
+    custom_command = echo "greetings batman" && zsh
+    font = Terminus 12
+    background_color = "#312e3f"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
