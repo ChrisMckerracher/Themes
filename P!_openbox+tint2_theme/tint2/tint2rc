@@ -26,7 +26,7 @@ panel_monitor = 1
 panel_position = top center horizontal
 panel_size = 0 25
 panel_margin = -1 -2
-panel_padding = -1 -1 2
+panel_padding = -1 -1 0
 panel_dock = 0
 wm_menu = 1
 panel_layer = normal
@@ -64,7 +64,7 @@ task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 100 0 0
 
 # Fonts
-task_font = terminator 8
+task_font = Free Sans 8
 task_font_color = #748C98 100
 task_active_font_color = #748C98 100
 task_urgent_font_color = #748C98 100
@@ -81,7 +81,7 @@ systray_icon_asb = 100 0 0
 
 # Clock
 time1_format = %a %d %b - %H:%M
-time1_font = terminator 8
+time1_font = Free Sans 8
 clock_font_color = #748C98 100
 clock_padding = 10 0
 clock_background_id = 1
@@ -106,8 +106,8 @@ battery = 1
 battery_low_status = 20
 battery_low_cmd = notify-send "battery low"
 #battery_hide = 90
-bat1_font = terminator 8
-bat2_font = terminator 8
+bat1_font = Free Sans 8
+bat2_font = Free Sans 8
 battery_font_color = #748C98 101
 battery_padding = 0 0
 battery_background_id = 1
